@@ -1,3 +1,10 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #d5bbf1;
+    color: #333;
+}
+
 h1 {
     font-size: 32px;
     text-align: center;
@@ -21,6 +28,16 @@ a:hover {
 
 blockquote {
     font-style: italic;
-    background-color: blue;
-    border-left: 4px solid #0077B5;
+    background-color: rgb(163, 8, 235);
+    border-left: 4px solid #e60e20;
+}
+
+dt {
+    font-weight: bold;
+    font-size: 18px;
+    color: #555;
+}
+
+dd {
+    font-size: 16px;
 }
